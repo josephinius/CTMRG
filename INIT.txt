@@ -1,0 +1,15 @@
+0			model: Ising (0), Clock (1), Potts (2)
+2			q: number of states*
+0.000E-14		h: external field (e.g. 1.000E-14)
+0.500E-00		initial: initial temperature (e.g. 1.000E-01)
+3.500E-00		final: final temperature (e.g. 4.000E+00)
+1.000E-02		delta: temperature increment (e.g. 1.000E-02)
+20			m: maximal dimension (e.g. 20)
+100001			L: maximal lattice size (e.g. 50000)
+1			g: symmetry breaking (field on boundary)
+1.E-15			lim_m: convergence for the magnetization
+1.E-15			lim_u: convergence for the inner energy
+1.E-04			lim_f: convergence for the free energy
+1.E-15			lim_ff: convergence for the fast converging free energy
+
+* for Ising, the value is ignored and always set to be 2
