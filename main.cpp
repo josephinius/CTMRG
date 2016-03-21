@@ -128,7 +128,7 @@ int main ()
 	
 	if ( par == NULL ) 
 	{ 
-		printf("Can't open the input file \"INIT.txt\"\n");
+		printf("Can't open the input file \"INIT.txt\" \n");
 		return 1;
 	}
 	
@@ -190,7 +190,7 @@ int main ()
 	FILE* fw;
 	if ((fw = fopen("DATA.txt", "w")) == NULL)        //this creates file DATA.txt
 	{
-		printf("Subor \"DATA.txt\" sa nepodarilo otvorit\n");
+		printf("Can't open the output file \"DATA.txt\" \n");
 		return 1;
 	}
 	fclose(fw);
